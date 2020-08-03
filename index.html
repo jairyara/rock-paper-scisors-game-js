@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Piedra, papel o tijera</title>
+</head>
+
+<body>
+    <section class="main">
+
+        <h1 class="title">
+            Piedra, papel o tijera
+        </h1>
+
+        <div class="results">
+
+            <h3 class="results-title">
+                Resultados
+            </h3>
+
+            <div class="user-results cpu">
+                <h3 class="name">
+                    CPU
+                </h3>
+                <p id="result-cpu" class="result-number">
+                    0
+                </p>
+            </div>
+
+            <p class="vs">
+                vs
+            </p>
+
+            <div class="user-results user">
+                <h3 id="name-user" class="name">
+                    Player
+                </h3>
+                <p id="result-user" class="result-number">
+                    1
+                </p>
+            </div>
+        </div>
+
+        <div class="options">
+            <button id="rock" class="options-text">
+                ✊ <br> Piedra
+            </button>
+            <button class="options-text" id="paper">
+                    🖐️ <br> Papel
+            </button>
+            <button class="options-text" id="scisors">
+                    ✌️ <br> Tijeras
+            </button>
+        </div>
+
+        <h3 id="message" class="message">
+            Juguemos.
+        </h3>
+
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
